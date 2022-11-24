@@ -1,0 +1,21 @@
+[16,21,11,8,12,22]  Merge Sort a göre çözüm aşaması(sıralaması)
+
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+            [16,21,11,8,12,22]
+
+        [16,21,11]      [8,12,22] Merge aşamasını gerçekleştirdim ve küçük olan sayıları ilk başa yazdım.
+
+       [16,21] [11]    [8,12] [22] Kendi aralarında tekrardan merge işlemi gerçekleştirdim.
+
+      [16] [21] [11]  [8] [12] [22] Bütün değerleri kıyaslama için ayırma işlemini gerçeleştirdim.
+
+       [16] [11,21]    [8,12] [22] Bütün değerleri kıyaslama için ayırma işlemini gerçeleştirdim.
+
+        [11,16,21]      [8,12,22] Bütün değerleri birbirleri ile kıyaslayarak küçükten büyüğe sıralamasını yazdım.
+
+            [8,11,12,16,21,22] Sonuç olarak 6 aşamada sıralama yapıldı.
+
+
+	o(nlogn) n=6 => o(6log6) Big-O gösterimi
